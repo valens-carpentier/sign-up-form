@@ -1,1 +1,1 @@
-# sign-up-form
+A sign-up form as a requirement for The Odin Project's Full Stack Javacript course
