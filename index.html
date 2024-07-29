@@ -51,16 +51,18 @@
                     <p class="input">
                         <label for="tel">PHONE</label>
                         <input type="tel" id="tel" name="tel" />
-                    </p class="input">
+                    </p>
 
                     <p class="input">
-                        <label for="userPassword">PASSWORD</label>
-                        <input id="userPassword" type="password" />
-                    </p class="input">
-
+                        <label for="userPassword">PASSWORD:</label>
+                        <input id="userPassword" type="password" minlength="8" required/>
+                        <span class="error-message">Password does not match</span>
+                    </p>
+                    
                     <p class="input">
                         <label for="confirmPassword">CONFIRM PASSWORD</label>
-                        <input id="confirmPassword" type="password" />
+                        <input id="confirmPassword" type="password" minlength="8" required/>
+                        <span class="error-message">Password does not match</span>
                     </p>
 
                 </form>

@@ -140,8 +140,6 @@ h3 > a {
     font-weight: 500;
 }
 
-
-
 .credit {
     position: absolute;
     top: 88%;
@@ -156,4 +154,22 @@ h3 > a {
 
 .credit a {
     color: rgb(165, 165, 165)
+}
+
+input[type=password]:invalid {
+    border-color: red;
+}
+
+input[type=password] {
+    border-color: #E5E7EB;;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875em;
+    display: none;
+}
+
+input:invalid + .error-message {
+    display: block; 
 }
