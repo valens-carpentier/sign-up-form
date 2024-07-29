@@ -67,7 +67,7 @@ form {
 }
 
 .header {
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .input {
@@ -95,6 +95,7 @@ label {
 
 div > h3 {
     width: 75%;
+    font-weight: 500;
 }
 
 button {
@@ -114,14 +115,20 @@ input:focus {
     box-shadow: blue;
   }
 
-p > a {
+h3 > a {
     color: #596D48;
 }
 
 .form-container {
     background-color: white;
+    padding-top: 1px;
 }
 
 #password:invalid {
     border-color: red;
+}
+
+.footer {
+    font-size: small;
+    font-weight: 500;
 }
